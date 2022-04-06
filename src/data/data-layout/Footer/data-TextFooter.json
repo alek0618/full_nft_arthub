@@ -1,0 +1,46 @@
+[
+	{
+		"title":"PRIVACY &amp; TOS",
+		"text1":"Advertiser Agreement",
+		"text2":"Acceptable Use Policy",
+		"text3":"Privacy Policy",
+		"text4":"Technology Privacy",
+		"text5":"Developer Agreement",
+		"path1":"/aboutUs",
+		"path2":"/aboutUs",
+		"path3":"/aboutUs",
+		"path4":"/aboutUs",
+		"path5":"/aboutUs",
+        "classBlock":"col-12 col-lg-3 col-md-6",
+        "classInfo":"contact_info mt-x text-center"
+	},
+	{
+		"title":"NAVIGATE",
+		"text1":"Advertisers",
+		"text2":"Developers",
+		"text3":"Resources",
+		"text4":"Company",
+		"text5":"Connect",
+		"path1":"/services",
+		"path2":"/services",
+		"path3":"/services",
+		"path4":"/services",
+		"path5":"/services",
+        "classBlock":"col-12 col-lg-2 col-md-6",
+        "classInfo":"contact_info mt-s text-center"
+	},
+	{
+		"title":"CONTACT US",
+		"text1":"Mailing Addressxx00 E. Union Ave",
+		"text2":"Suite 1100. Denver, CO 80237",
+		"text3":"+999 90932 627",
+		"text4":"support@yourdomain.com",
+		"path1":"",
+		"path2":"",
+		"path3":"",
+		"path4":"",
+        "classBlock":"col-12 col-lg-3 col-md-6",
+        "classInfo":"contact_info mt-s text-center",
+		"text5":false
+	}
+]

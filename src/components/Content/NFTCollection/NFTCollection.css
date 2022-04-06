@@ -1,0 +1,68 @@
+
+/* ##### 11.0 Price Table Area CSS ##### */
+
+.single_price_table_content {
+    padding: 50px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+    border-radius: 6px;
+}
+.card-title{
+    color: #13287e !important;
+}
+.single_price_table_content.active {
+    box-shadow: 0 0px 19px rgb(175 219 254);
+    background-image: linear-gradient(182deg, #469eff 0%, #2f69ff 100%);
+}
+.price_table_offer{
+    background-color: #5ba5fb;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 0 8px 0 10px;
+}
+
+.single_price_table_content.active .price_table_offer{
+    background-color: #fff;
+    color: #3581f3;
+}
+.price_table_text {
+    margin-bottom: 45px;
+}
+
+.price_table_text > h5 {
+    color: #8fa2be !important;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+}
+.single_price_table_content.active  .price_table_text > h5{
+    color:#fff !important
+}
+.price_table_text > h1 {
+    font-size: 38px;
+    margin:30px 0 15px;
+    font-weight: 800;
+    line-height: 1;
+    color: #3964f9 
+}
+
+.price_table_text > p,
+.table_text_details > p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.table_text_details > p {
+    margin-bottom: 20px;
+}

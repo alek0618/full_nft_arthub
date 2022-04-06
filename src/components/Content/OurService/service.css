@@ -1,0 +1,104 @@
+
+/* ##### Service Area CSS ##### */
+
+.service_single_content {
+    position: relative;
+    z-index: 1;
+    background: #0a1026;
+    padding: 40px 15px 25px;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
+}
+
+.service_single_content .service_icon i {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    display: block;
+}
+.embed-video {
+    max-width: 250px !important;
+    height: auto !important;
+}
+.light-version .how .service_single_content{
+    background: #fff
+}
+.how .service_icon{
+    padding: 30px;
+    position: relative;
+    border: 2px solid #00dcd8;
+    background-image: linear-gradient(to right, #21d397 0%, #7450fe 100%);
+    max-width: 140px;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+.how_icon{
+    margin-bottom: 30px
+}
+.how .service_icon .white-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.how .service_single_content:hover .service_icon {
+    background: #fff
+}
+.how .service_single_content:hover .white-icon{
+    visibility: hidden;
+}
+.service_icon .step-num{
+    position: absolute;
+    top: 0px;
+    right: -10px;
+    background:#21d397 ;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+}
+.service_icon{
+    margin-bottom: 30px;
+    display: inline-block;
+    max-width: 80px
+}
+.service_icon.max{
+    max-width: 100px
+}
+.service_single_content h6 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.bo-br{
+    position: relative;
+    width: 200px;
+    height: 6px;
+    margin-top: 30px;
+    background-color: #5ba5fb;
+    border-radius: 5px;
+}
+.side-feature-list-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.check-mark-icon {
+    margin-right: 16px;
+    width: 30px;
+    height: 30px
+}
+.foot-c-info {
+    font-weight: 500;
+}
